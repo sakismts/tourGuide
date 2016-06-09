@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/post_border_style"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/post_background_style" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
+            
+            
+
+            <RelativeLayout
+                android:id="@+id/box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow" />
+                
+                 <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"   
+                    android:textSize="16sp"                 
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/imageView2"
+                    android:gravity="center_horizontal"
+                    android:textColor="#04AEDA" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="bottom"
+                    android:layout_toLeftOf="@+id/imageView2"
+                     android:layout_below="@id/tv_date"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="6dip"
+                    android:textColor="#FF7C3F"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/tv_title"
+                    android:layout_toLeftOf="@+id/imageView2"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="8dp"
+                    android:textColor="#888" >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/tv_address"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/imageView2"
+                    android:gravity="right" />
+
+               
+                
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ioannina - Greek Tour Guides</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hotels">Hotels</string>
+    <string name="food">Food</string>
+    <string name="fun">Fun</string>
+    <string name="coffee">Coffee/Sweets</string>
+    <string name="topic">Local Products</string>
+    <string name="rent_car">Rent a car.</string>
+    <string name="destinations">Destinations</string>
+    <string name="axiotheata">Shites</string>
+    <string name="travel_agencies">Travel agencies</string>
+    <string name="shopping">Shopping</string>
+    <string name="Beauty">Beauty</string>
+    <string name="students">Students</string>
+    <string name="events">Events</string>
+    <string name="info">Info</string>
+   <string-array name="food_array">
+        <item>All</item>
+        <item>Restaurants</item>
+        <item>Delivery</item>
+     </string-array>
+     
+     
+
+</resources>

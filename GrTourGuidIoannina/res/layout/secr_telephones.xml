@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/tv_thetikwn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_down"
+                android:padding="5dp"
+                android:text="Σχολή Θετικών Επιστημών"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#04AEDA"
+                android:background="@drawable/border_bottom" />
+
+            <LinearLayout
+                 android:id="@+id/ll_thetikwn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border_bottom" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Τμήματος Μαθηματικών" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:clickable="true"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:linksClickable="true"
+                        android:text="2651007492 	" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Τμήματος Φυσικής" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007490	" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Τμήματος Χημείας" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007195, 7473	" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Τμήματος Πληροφορικής" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007197" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_epistimis_texn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow_down"
+                android:padding="5dp"
+                android:text="Σχολή Επιστήμης και Τεχνολογίας"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#04AEDA"
+                 android:background="@drawable/border_bottom" />
+
+              <LinearLayout
+                 android:id="@+id/ll_epist_texn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 android:background="@drawable/border_bottom" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                      <TextView
+                          android:id="@+id/textView7"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="3"
+                          android:text="Γραμματεία Τμήματος Επιστήμης &amp; Τεχνολογίας Υλικών" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007109, 7210" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Τμήματος Βιολογικών Εφαρμογών &amp; Τεχνολογιών " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007336, 7277" />
+
+                </LinearLayout>
+
+
+               
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_filosofiki"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/arrow_down"
+                android:padding="5dp"
+                android:text="Φιλοσοφική Σχολή"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#04AEDA"
+                 android:background="@drawable/border_bottom" />
+            
+               <LinearLayout
+                 android:id="@+id/ll_filosogiki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 android:background="@drawable/border_bottom" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                      <TextView
+                          android:id="@+id/textView7"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="3"
+                          android:text="Γραμματεία Τμήματος Φιλολογίας" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007475, 7474" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Τμήματος Ιστορίας &amp; Αρχαιολογίας" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007232, 7441" />
+
+                </LinearLayout>
+
+				 <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Τμήματος Φιλοσοφίας, Παιδαγωγικής &amp; Ψυχολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007405, 7185" />
+
+                </LinearLayout>
+               
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_sxolis_agwgis"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/arrow_down"
+                android:padding="5dp"
+                android:text="Σχολή Επιστημών Αγωγής"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#04AEDA"
+                 android:background="@drawable/border_bottom" />
+             <LinearLayout
+                 android:id="@+id/ll_epist_agwghs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 android:background="@drawable/border_bottom" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                      <TextView
+                          android:id="@+id/textView7"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="3"
+                          android:text="Γραμματεία Παιδαγωγικού Τμήματος Εκπαίδευσης " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007454, 7455" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Παιδαγωγικού τμήματος Νηπιαγωγών " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007188, 7189" />
+
+                </LinearLayout>
+
+
+               
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_iatriki"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/arrow_down"
+                android:padding="5dp"
+                android:text="Ιατρική Σχολή"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#04AEDA"
+                 android:background="@drawable/border_bottom" />
+            <LinearLayout
+                 android:id="@+id/ll_iatrikis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 android:background="@drawable/border_bottom" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Ιατρικής Σχολής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007483, 7481" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Δερματολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007530" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Καρδιολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007533" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Νευρολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007514" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Νευροχειρουργικής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007527" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Ορθοπεδικής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007515" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Ουρολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007539" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Οφθαλμολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007528" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Παθολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007500" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Παιδιατρικής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007544" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Παιδιατρικής Νεφρολογίας 	" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007546" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Πνευμονολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007535" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Χειρουργικής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007432, 7354 	" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Ψυχιατρικής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007254, 7255" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Ω.Ρ.Λ " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007513" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Νευροχειρουργικό Ινστιτούτο " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007706" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Μαιευτικής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007238" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Μιχαηλίδειο" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007710" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Ιατροδικαστικής-Τοξικολογίας" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007763" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Μικροβιολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007593, 7591" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Φαρμακολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007762" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Γραμματεία Φυσιολογίας " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007580, 7581 	" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+             <TextView
+                android:id="@+id/tv_anexart"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_bottom"
+                android:drawableRight="@drawable/arrow_down"
+                android:padding="5dp"
+                android:text="Independent (Non-School) Departments"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#04AEDA" />
+
+             <LinearLayout
+                 android:id="@+id/ll_anexart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 android:background="@drawable/border_bottom" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                      <TextView
+                          android:id="@+id/textView7"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="3"
+                          android:text="Γραμματεία Τμήματος Οικονομικών" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007497, 7498" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Τμήματος Πλαστικών Τεχνών και Επιστημών της Τέχνης" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007117" />
+
+                </LinearLayout>
+
+				 <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Τμήματος Αρχιτεκτονικής" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651007281" />
+
+                </LinearLayout>
+               
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_tei"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/arrow_down"
+                android:padding="5dp"
+                android:text="ΤΕΙ ΗΠΕΙΡΟΥ"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#04AEDA"
+                 android:background="@drawable/border_bottom" />
+             <LinearLayout
+                 android:id="@+id/ll_tei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 android:background="@drawable/border_bottom" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                      <TextView
+                          android:id="@+id/textView7"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="3"
+                          android:text="Γραμματεία Τμήματος Νοσηλευτικής " />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651050771,50770, 50713" />
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Τμήματος Λογοθεραπείας" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651050712, 50715" />
+
+                </LinearLayout>
+
+				 <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="5dp" >
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="3"
+                           android:text="Γραμματεία Τμήματος Προσχολικής Αγωγής" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="2651050714, 50711 " />
+
+                </LinearLayout>
+               
+
+            </LinearLayout>
+            
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

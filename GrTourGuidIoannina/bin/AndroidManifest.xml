@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mts.grtourguidioannina"
+    android:versionCode="4"
+    android:versionName="1.3" >
+    
+    <permission 
+               android:name="com.mts.grtourguidioannina.MAPS_RECEIVE" 
+               android:protectionLevel="signature"></permission>
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+   
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<!-- The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended. -->
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+ <uses-permission android:name="android.permission.CALL_PHONE"/>
+    
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+   
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:largeHeap="true">
+       <meta-data
+    android:name="com.google.android.gms.version"
+    android:value="@integer/google_play_services_version" />
+        <meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="AIzaSyDCQDHXvsQ07wfXvxMw1R9z4heTtNTBf8A"/>
+         <activity
+            android:name="com.mts.grtourguidioannina.Intro"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+   android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.mts.grtourguidioannina.MainActivity"
+            android:label="@string/app_name"            
+        	android:theme="@android:style/Theme.NoTitleBar"
+        	 android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.mts.grtourguidioannina.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hotels"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOTELS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SingleRecord"
+            android:label="@string/app_name"   
+             android:screenOrientation="portrait"         
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.SINGLERECORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".SingleRecord_Destinations"
+            android:label="@string/app_name"   
+             android:screenOrientation="portrait"         
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.SINGLERECORD_DESTINATIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Single_record_event"
+            android:label="@string/app_name"   
+             android:screenOrientation="portrait"         
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.SINGLE_RECORD_EVENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Destinations"
+            android:label="@string/app_name"   
+             android:screenOrientation="portrait"         
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.DESTINATIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Food"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.FOOD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fun"
+            android:label="@string/app_name"    
+             android:screenOrientation="portrait"        
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.FUN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Coffee_Sweets"
+            android:label="@string/app_name"    
+             android:screenOrientation="portrait"        
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.COFFEE_SWEETS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Local_products"
+            android:label="@string/app_name"   
+             android:screenOrientation="portrait"         
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOCAL_PRODUCTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Shopping"
+            android:label="@string/app_name"  
+             android:screenOrientation="portrait"          
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.SHOPPING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Rent"
+            android:label="@string/app_name"  
+             android:screenOrientation="portrait"          
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.RENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Travel_agenc"
+            android:label="@string/app_name"  
+             android:screenOrientation="portrait"          
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVEL_AGENC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Beauty"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.BEAUTY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Shites"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.SHITES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Events"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.EVENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Events_college"
+            android:label="@string/app_name"   
+             android:screenOrientation="portrait"         
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.EVENTS_COLLEGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Secretaries_phones"      
+             android:label="@string/app_name" 
+              android:screenOrientation="portrait"                 
+        	android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.SECRETARIES_PHONES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".Uoi_News"      
+             android:label="@string/app_name" 
+              android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.UOI_NEWS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            <activity
+            android:name=".Article"      
+             android:label="@string/app_name" 
+              android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.ARTICLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".Campus_coffee"      
+             android:label="@string/app_name" 
+              android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.CAMPUS_COFFEE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mts.grtourguidioannina.Map"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"           
+        	android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Info"      
+             android:label="@string/app_name" 
+              android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+                 android:screenOrientation="portrait"
+   android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

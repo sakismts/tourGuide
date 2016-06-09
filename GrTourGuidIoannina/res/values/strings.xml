@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ioannina - Greek Tour Guides</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hotels">Ξενοδοχεία</string>
+    <string name="food">Φαγητό</string>
+    <string name="fun">Διασκέδαση</string>
+    <string name="coffee">Καφές/Γλυκά</string>
+    <string name="topic">Τοπικά Προϊόντα</string>
+    <string name="rent_car">Ενοικίαση αυτοκ./μηχαν.</string>
+    <string name="destinations">Προορισμοί</string>
+    <string name="axiotheata">Αξιοθέατα</string>
+    <string name="travel_agencies">Ταξιδιωτικά Γραφεία</string>
+    <string name="shopping">Ψώνια</string>
+    <string name="Beauty">Ομορφιά</string>
+    <string name="students">Φοιτητές</string>
+    <string name="events">Εκδηλώσεις</string>
+    <string name="info">Πληροφορίες</string>
+     <string-array name="food_array">
+        <item>Όλα</item>
+        <item>Εστιατόρια</item>
+        <item>Delivery</item>
+     </string-array>
+     
+     
+
+</resources>
